@@ -2,8 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
-	res.send("Build")	
+    res.send('Hello, World! and build Docker');
 });
 
 const PORT = process.env.PORT || 3000;
